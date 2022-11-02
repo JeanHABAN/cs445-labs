@@ -1,6 +1,6 @@
 # cs445-labs
 
-1. [Lab 1 - Git](https://github.com/JeanHABAN/cs445-labs/blob/main/lab1.pdf)
+1. [Lab 1 - Git](https://github.com/JeanHABAN/cs445-labs/blob/main/Lab1/lab1.pdf)
 2. [Lab 2 - TypeScript](Lab3/lab3.md)
 3. [Lab 3 - Design Pattern 1](Lab9/lab9.md)
 4. [Lab 4 - Design Pattern 2](Lab10/lab10.md)
