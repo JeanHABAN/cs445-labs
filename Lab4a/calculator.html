@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <script>
+        function addNum(){
+        let num1 = parseFloat(document.getElementById("fNum").value);
+        let num2 = parseFloat(document.getElementById("sNum").value);
+        let sum = num1 + num2;
+        document.getElementById("answer").value = sum;
+        }
+    </script>
+
+</head>
+<body>
+    <div>
+        <span>enter first number: </span><br>
+        <input id="fNum">
+    </div>
+    <div>
+        <span>enter second number: </span><br>
+        <input id="sNum">
+    </div>
+    <p>sum: <input id="answer"></p>
+    <div style="padding-top:10px ;">
+        <button style="background-color:red ;" onclick="addNum()">submit</button>
+    </div>
+</body>
+</html>

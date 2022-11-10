@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>swap two images</title>    
-</head>
-<body>
-    <div id="myfirst">
-        <img src="/Lab4a/five.webp" alt="" style="height:200px ;">
-    </div>
-    <div id="mysecond">
-        <img src="/Lab4a/girl1.webp" alt="" style="height: 200px;">
-    </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>swap two images</title>
+    <script>
+      function swap() {
+        let im1 = document.getElementById("myfirst");
+        let im2 = document.getElementById("mysecond");
+        let temp = im1.src;
+        im1.src = im2.src;
+        im2.src = temp;
+      }
+    </script>
+  </head>
+  <body>
+    <img src="/Lab4a/five.webp" alt="" style="height: 200px" id="myfirst" />
+
+    <img src="/Lab4a/girl1.webp" alt="" style="height: 200px" id="mysecond" />
+
     <div>
-        <input type="button" onclick="swap()" value="swap image">
+      <input type="button" onclick="swap()" value="swap image" />
     </div>
-</body>
+  </body>
 </html>
